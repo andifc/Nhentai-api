@@ -6,6 +6,6 @@ const headers = {
   Connection: "keep-alive",
 };
 
-const base_uri = { home: "https://nhentai.to/index", comic:  "https://nhentai.to/g", search: "https://nhentai.to/search/?q="};
+const base_uri = { home: "https://nhentai.to/", comic:  "https://nhentai.to/g", search: "https://nhentai.to/search/?q="};
 
 module.exports = { headers, base_uri };
